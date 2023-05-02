@@ -1,0 +1,19 @@
+%% Dokumenteinstellungen
+\documentclass{template}
+
+%%Dokument
+\begin{document}
+
+% Ersten Seiten
+\frontmatter
+
+% Die eigentlichen Arbeiten
+\include{01-arbeit}
+\include{02-arbeit}
+
+% Jedes Thema hat eine Nummer. Diese Nummer verwenden, um die eigentliche Arbeit zu schreiben, also Thema 1 hat 01-arbeit.tex und 01-arbeit.bib.
+% Da jeder ein Chapter schreibt, sollte der Text jeweils darunter folgen.
+% Abkürzungsverzeichnis und passende Packages sind bei diesem Ansatz leider schwierig umzusetzen.
+% Zum Kompilieren entweder bash compile.sh oder entsprechend die Befehle ausführen. Da mit chapterbib gearbeitet wird, muss jedes aux file mit bibtex kompiliert werden.
+
+\end{document}
